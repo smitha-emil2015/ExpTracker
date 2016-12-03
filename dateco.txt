@@ -1,0 +1,13 @@
+
+            //debugger;
+          //  Reset();
+            var from = "";
+            var to = "";
+
+            if ($scope.BillingCodeFromDate != "" && $scope.BillingCodeFromDate != undefined) {
+                from = new Date($scope.BillingCodeFromDate.split('/')[1] + '/' + $scope.BillingCodeFromDate.split('/')[0] + '/' + $scope.BillingCodeFromDate.split('/')[2]);
+            }
+
+            if ($scope.BillingCodeToDate !="" && $scope.BillingCodeToDate != undefined) {
+                to = new Date($scope.BillingCodeToDate.split('/')[1] + '/' + $scope.BillingCodeToDate.split('/')[0] + '/' + $scope.BillingCodeToDate.split('/')[2]);
+            }
